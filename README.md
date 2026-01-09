@@ -9,9 +9,9 @@ In this project, I built a simple calculator using header files. Instead of writ
 The goal of this project is to understand how multiple files work together in C and how header files make code cleaner and reusable.
 
 ## Project Structure
-- main.c → handles user input, menu, and program flow [Click Here For the Link](
-- math_ops.h → contains function declarations and macros [Click Here For the Link](
-- math_ops.c → contains the actual math function logic [Click Here For the Link](
+- main.c → handles user input, menu, and program flow [Click Here For the Link](source_code/main.c)
+- math_ops.h → contains function declarations and macros [Click Here For the Link](header_file/math_op_.h)
+- math_ops.c → contains the actual math function logic [Click Here For the Link](source_code/math_op_.c)
 
 ## Why Header Files
 I used header files so the math functions can be reused in other projects without rewriting the code. The header file uses include guards (#ifndef, #define, #endif) to prevent multiple declarations.
